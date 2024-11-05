@@ -1,0 +1,9 @@
+[package]
+name = "chip8-ga"
+version = "0.1.0"
+authors = ["Indegrowl <indegrowl.mail@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+chip8 = { path = "./crates/chip8" }
+sdl2 = "^0.34.3"
